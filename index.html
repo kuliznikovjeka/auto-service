@@ -6,26 +6,26 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230202193747">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230203012416">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 	<div class="wrapper">
-		<header data-scroll-show class="header">
+		<header id="header" data-scroll-show class="header">
 			<div class="header__container">
 				<div href="" class="header__logo">
-					<a href="#" class="header__link">Логотип</a>
+					<a href="#header" class="header__link">Логотип</a>
 				</div>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link">Home</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">About us</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Services</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+							<li class="menu__item"><a href="#main" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="#about-us" class="menu__link">About us</a></li>
+							<li class="menu__item"><a href="#services" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="#blog" class="menu__link">Blog</a></li>
+							<li class="menu__item"><a href="#contacts" class="menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -40,7 +40,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main main-page">
+			<section id="main" class="page__main main-page">
 				<div class="main-page__container">
 					<div class="main-page__content">
 						<h1 class="main-page__title">Get your vehicle service done online at one place</h1>
@@ -87,7 +87,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__offer offer">
+			<section id="services" class="page__offer offer">
 				<div class="offer__container">
 					<div class="offer__head">
 						<div class="offer__label">What we Offer</div>
@@ -196,7 +196,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__conection conection">
+			<section id="about-us" class="page__conection conection">
 				<div class="conection__container">
 					<div class="conection__content">
 						<div class="conection__title title-w">
@@ -423,7 +423,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__blog blog">
+			<section id="blog" class="page__blog blog">
 				<div class="blog__container">
 					<div class="blog__title title">Our blog</div>
 					<div data-tabs class="blog-tabs">
@@ -709,7 +709,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__contacts contacts">
+			<section id="contacts" class="page__contacts contacts">
 				<div class="contacts__container">
 					<div class="contacts__title title">Get in touch with our experts</div>
 					<div class="contacts__row">
@@ -763,13 +763,63 @@
 				</div>
 				<div class="location__img"><picture><source srcset="img/location/01.webp" type="image/webp"><img src="img/location/01.png" alt=""></picture></div>
 			</section>
+			<section class="pagee__in-touch in-touch">
+				<div class="in-touch__container">
+					<div class="in-touch__content">
+						<div class="in-touch__title title-w">Get in touch with us for your service</div>
+						<div class="in-touch__row">
+							<a href="#" class="in-touch__icon _icon-facebook"></a>
+							<a href="#" class="in-touch__icon _icon-twitter"></a>
+							<a href="#" class="in-touch__icon _icon-inst"></a>
+							<a href="#" class="in-touch__icon _icon-in"></a>
+						</div>
+					</div>
+					<div class="in-touch__body content-in-touch">
+						<div class="content-in-touch__body">
+							<div class="content-in-touch__label">Help line Noumber</div>
+							<div class="content-in-touch__sub-label">1800 265 24 52</div>
+						</div>
+						<div class="content-in-touch__body">
+							<div class="content-in-touch__label">Address</div>
+							<div class="content-in-touch__sub-label">NH 234 Public Square San Francisco 65368</div>
+						</div>
+						<div class="content-in-touch__body">
+							<div class="content-in-touch__label">We are open</div>
+							<div class="content-in-touch__sub-label">Monday to Friday 9:00 AM to 10:00 AM</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
+				<a href="#" class="footer__logo">Логотип</a>
+				<div class="footer__menu menu-footer">
+					<nav class="menu-footer__body">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#main" class="menu-footer__link">Home</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#about-us" class="menu-footer__link">About us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#services" class="menu-footer__link">Services</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#blog" class="menu-footer__link">Blog</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#contacts" class="menu-footer__link">Contact us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__copy">@ Copyright Finsweet 2021</div>
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230202193747"></script>
+	<script src="js/app.min.js?_v=20230203012416"></script>
 </body>
 
 </html>
